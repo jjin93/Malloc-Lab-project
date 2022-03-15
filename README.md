@@ -15,6 +15,7 @@ sudo apt-get install gcc-multilib g++-multilib
 git clone https://github.com/emplam27/Malloc-Lab-project.git
 cd Malloc-Lab-project/malloc-mdriver
 
-# mm.c 파일내용을 explicit-malloc.c, implicit-malloc(first-fit).c, implicit-malloc(next-fit).c로 수정
+# mm.c 파일내용을 mm_explicit.c, mm_implicit.c, mm_segregated_two.c로 수정
 make re
 ```
+
